@@ -6,7 +6,7 @@ kaboom({
         height: 800,
         background: [126,175,205],
     });
-loadSprite("amongsus","sprites/amongsus.png")
+loadSprite("amongsus","sprites/Screenshot_2022-03-24_09.55.41-removebg-preview.png")
 scene("game", () => {
 
 layers([
@@ -33,16 +33,6 @@ const player = add([
 const JUMP_FORCE = 1250;
 const SPEED = 400; 
 const GRAVITY = 2200
-
-add([
-  sprite("DonKeYBaRReL"),
-  pos (10000,600),
-  area(),
-  "obst",
-  "game",
-  layer("game"),
-  scale(0.16)
-])
 add([
   rect(2000, 100),
   pos(0, 800),
